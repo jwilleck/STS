@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+ 
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+.navbar-default{
+  transition:500ms ease;
+  background: #DFD9B8;
+}
+.navbar-default.scrolled{
+  background:#dfd9b89d;
+}
+
+.navbar {
+  height: auto;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  height: 100px;  
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: -10px;
+
+}
+
+.nav-link {
+  padding-left: 20px !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  margin-top: 115px;
+  margin-bottom: 0px;
+}
+
+.rowspace {
+  padding-bottom: 40px;
+} 
+  h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #973406;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    line-height: 24px;
+  }
+
+.bullets {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-indent: 20px;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+}
+
+.vidpad {
+  
+  padding-right: 20px;
+}
+
+.jumbotron {
+  background: url(/images/headerpic2.png);
+  background-attachment: fixed;
+  background-repeat: no;
+  background-size: cover;
+  
+}
+
+.mission {
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #ffffffc2;
+  margin: 125px 125px;
+  padding: 30px 30px;
+}
+
+  .footer {
+    
+    background-color: #e3cfaa;
+      }
+
+  
+
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+
+/* Responsive layout - Mobile */
+@media only screen and (max-width: 650px) {
+h1 {
+  text-align: left;
+}
+ 
+
+
+  .content {
+    flex-direction: column;
+  }
+
+  .mission {
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #ffffffc2;
+    margin: 25px 25px;
+    padding: 10px 10px;
+  } 
+
+}
+
+
+
+/* Responsive layout - tablet */
+@media only screen and (max-width: 992px) {
+
+  h1 {
+    text-align: left;
+  }
+   
+  .mission {
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #ffffffc2;
+    margin: 25px 25px;
+    padding: 10px 10px;
+  } 
+}
+
