@@ -49,8 +49,10 @@ body {
 }
 
 .rowspace {
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 } 
+
   h1 {
     font-size: 24px;
     font-weight: 500;
@@ -86,6 +88,7 @@ body {
 .vidpad {
   
   padding-right: 20px;
+  padding-bottom: 40px;
 }
 
 .jumbotron {
@@ -112,14 +115,17 @@ body {
   box-shadow:5px 5px 10px #888888;
 }
 
-  .footer {
-    
-    background-color: #e3cfaa;
-      }
+.footer {
+  background-color: #e3cfaa;
+}
 
-  
+.retreats {
+  background-color: #f7f4f4a4;
+}  
 
-
+.proverbs {
+  background-color: #f7f4f4a4;
+} 
 .container-fluid {
   display: flex;
   justify-content: space-between;
