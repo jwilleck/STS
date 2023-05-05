@@ -97,12 +97,19 @@ body {
 }
 
 .mission {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
   background-color: #ffffffc2;
   margin: 125px 125px;
   padding: 30px 30px;
+}
+
+.image img {
+  margin-top:20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  box-shadow:5px 5px 10px #888888;
 }
 
   .footer {
