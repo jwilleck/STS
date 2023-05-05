@@ -89,7 +89,7 @@ body {
 }
 
 .jumbotron {
-  background: url(/images/headerpic2.png);
+  background: url(../images/headerpic2.png);
   background-attachment: fixed;
   background-repeat: no;
   background-size: cover;
