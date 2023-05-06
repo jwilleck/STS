@@ -45,13 +45,14 @@ $(window).scroll(function(){
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="nav navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">Work <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="">About US</a>
-      <a class="nav-item nav-link" href="">Retreats</a>
-      <a class="nav-item nav-link" href="">Bible Camp</a>
-      <a class="nav-item nav-link" href="">Proverbs</a>
-      <a class="nav-item nav-link" href="">Videos</a>
-      <a class="nav-item nav-link" href="">Gallery</a>
+     
+      <a class="nav-item nav-link" href="#about">About US</a>
+      <a class="nav-item nav-link" href="#retreats">Retreats</a>
+      <a class="nav-item nav-link" href="#camp">Bible Camp</a>
+      <a class="nav-item nav-link" href="#proverbs">Proverbs</a>
+      <a class="nav-item nav-link" href="#videos">Videos</a>
+      <a class="nav-item nav-link" href="#gallery">Gallery</a>
+      <a class="nav-item nav-link" href="#links">Links</a>
       <a class="nav-item nav-link" href="">Donate</a>
     </div>
   </div>
@@ -70,9 +71,9 @@ $(window).scroll(function(){
 <div class="main">
  <div class="row" style="padding-bottom:60px">
   <div class="col-md-2">
-    <h1>About Us</h1>
+    <h1 id="about">About Us</h1>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-6">
     <p>
       The Success Through Scriptures (STS) ministry is an organization of outdoor enthusiasts who love to fish, hunt, canoe, snowmobile and camp. We, by personal experience, have learned that only through God and His Word is any true success possible. 
       Our purpose is to mentor men and boys in Godly wisdom through the scriptures and outdoor adventures.
@@ -81,12 +82,17 @@ $(window).scroll(function(){
       STS is affiliated with Westwood Community Church.
     </p>
   </div>
+  <div class="col-md-3" style="background-color: rgb(242, 233, 222); padding: 10px 10px 10px 10px; text-align:center;">
+    <h2>Donate</h2>
+    <p>Success Through Scriptures is a tax-exempt, 501(c) (3) nonprofit Christian organization, all donations and contributions to it are tax deductible.</p>
+  <img src="./images/donate.gif">
+  </div>
  </div>   
 </div>
 
 <div class="row rowspace retreats">
   <div class="col-md-2">
-    <h1>Crow Duck Lake Retreats</h1>
+    <h1 id="retreats">Crow Duck Lake Retreats</h1>
   </div>
   <div class="col-md-6">
     <h2>2023 Retreats and Event Dates</h2>
@@ -100,14 +106,14 @@ $(window).scroll(function(){
     <p>For more information, please contact Mike at:</p>
     <p>mwswisdom@yahoo.com</p>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3" style="text-align: center;">
    <div class="image"><img src="./images/scholarship.png"></div>
   </div>
 </div>
 
 <div class="row rowspace">
   <div class="col-md-2">
-    <h1>Calvary Bible Camp</h1>
+    <h1 id="camp">Calvary Bible Camp</h1>
   </div>
   <div class="col-md-6">
     <h2>Portage Lake Fishing</h2>
@@ -123,18 +129,19 @@ $(window).scroll(function(){
     </div>
 
     <h2>Application Packets and Info</h2> 
-    <p>Adult Camper Packet (Age 18+)</p>
-    <p>Youth Camper Packet (Age 17 & under)</p>
-    
+    <div class="bullets">
+    <li>Adult Camper Packet (Age 18+)</li>
+    <li>Youth Camper Packet (Age 17 & under)</li>
+    </div>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3" style="text-align: center;">
     <div class="image"> <img src="./images/camppic.png"></div>
   </div>
 </div>
 
 <div class="row rowspace proverbs">
   <div class="col-md-2">
-    <h1>Proverbs</h1>
+    <h1 id="proverbs">Proverbs</h1>
   </div>
   <div class="col-md-6">
    
@@ -152,7 +159,7 @@ $(window).scroll(function(){
     
      
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3" style="text-align: center;">
     <div class="image"> <img src="./images/proverbs.png"></div>
     
   </div>
@@ -161,7 +168,7 @@ $(window).scroll(function(){
 
 <div class="row" style="padding-top: 50px;">
   <div class="col-md-2">
-    <h1>Videos</h1>
+    <h1 id="videos">Videos</h1>
   </div>
   <div class="col-md-3">
     <h2>Crow Duck Lake STS</h2>
@@ -207,12 +214,83 @@ $(window).scroll(function(){
     <h2>Bill's 2010 Video</h2>
     <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/ajCeIPlpVGk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   </div>
+</div>
 
+<div class="row rowspace retreats">
+  <div class="col-md-2">
+    <h1 id="gallery">Photo Gallery Links</h1>
+  </div>
+  <div class="col-md-4">
+<div class="bullets">
+<li>June 2006 Retreat Photos</li>
+<li>May 2007 Retreat Photos</li>
+<li>June 7th 2007 Retreat Photos</li>
+<li>June 25th 2007 Retreat Photos</li>
+<li>August 2007 Retreat Photos</li>
+<li>2008 Retreats Gallery</li>
+<li>Misc Hunting Photos (1)</li>
+<li>Pheasant Hunt March 2009</li>
+<li>Pheasant Hunt October 2009</li>
+<li>2009 Retreats Photos</li>
+</div>
+</div>
+
+<div class="col-md-6">
+  <div class="bullets">
+<li>2010 Snowmobile Retreat</li> 
+<li>August 2010 Retreat</li> 
+<li>Sep 2010 Teen Challenge Winnipeg Retreat</li>
+<li>June 2011 Retreat Photos</li>
+<li>Pheasant Hunt  October 2012</li>
+<li>June 2013 Retreat Photos</li>
+<li>June 2013 Red Rock Photos</li>
+<li>June 2015 Red Rock Photos</li>
+<li>June 2018 Red Rock and Crow Duck Photos</li>
+</div>
+</div>
+  </div>
+
+  <div class="row rowspace">
+    <div class="col-md-2">
+      <h1 id="links">Links of Interest</h1>
+    </div>
+    <div class="col-md-8">
+      <div>
+      <p>We HIGHLY recommend this Bible Study site!  Good things happening here!
+      <a href="https://capmin.org/">Capital Ministry</a></p>
+      </div>
+      <div>
+     <p><a href="#">WHO are the GUIDES in your life?</a></p>
+      </div>
+      <div>
+      <p><a href="#">THE PRINCIPLES OF PROVERBS</a></p>
+      </div>
+      <div>
+        <p><a href="#">How to Tie Great Knots</a></p>
+        </div>
+        <div>
+          <p><a href="#">Weather Report for Crow Duck Lake</a></p>
+          </div>
+    </div>
+  </div>
+
+
+
+<div class="row" style="background-color: #9734062b;">
+  <div class="col-md-2">
+    </div>
+    <div class="col-md-6">
+    <p style="padding-top: 20px;">When Jesus told the desciples to let down their nets again after not catching a thing,  how many fish did they catch?
+      (For the answer see John 21:11)</p>
+    <p>Born Once, Die Twice  Rev 20:14<br>
+      Born Twice, Die Once  John 3:3</p>  
+      </div>
+  </div>
 </div>
 
 <div class="row footer">
   <div class="col">
-  <p style="text-align: center;">Copyright 2023 - Success Through Scriptures Retreats</p>
+  <p style="text-align: center; padding-top: 10px;">Copyright 2023 - Success Through Scriptures Retreats</p>
   </div>
   </div>
      

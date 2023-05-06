@@ -110,13 +110,17 @@ body {
 
 .image img {
   margin-top:20px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid gray;
   box-shadow:5px 5px 10px #888888;
 }
 
 .footer {
-  background-color: #e3cfaa;
+  background-color: #973406;
+}
+
+.footer p {
+  color: white;
 }
 
 .retreats {
@@ -136,6 +140,13 @@ body {
 
 
 
+[id]::before {
+  content: '';
+  display: block;
+  height:      175px;
+  margin-top: -175px;
+  visibility: hidden;
+}
 
 /* Responsive layout - Mobile */
 @media only screen and (max-width: 650px) {
