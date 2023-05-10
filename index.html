@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <!-- Google tag (gtag.js) -->
-
-
+    
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Success Through Scriptures</title>
       <link rel="icon" type="image/x-icon" href="">
@@ -20,47 +18,32 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-<!--on scroll change nav background color-->
-<script>
-$(window).scroll(function(){
-	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-});
-</script>
-
-<script defer src="app.js"></script>
-
-<!--animate text-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 </head>
 <header>
 <!-- bootstrap navbar -->
+<nav>
+<section>
+<div class="logo"><img src="./images/Logo5.gif" alt="">
+</div>
+</section>
 
-<nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-default">
-    <a class="navbar-brand" href="index.html">
-      <img src="./images/Logo5.gif" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="nav navbar-nav ml-auto">
-     
-      <a class="nav-item nav-link" href="#about">About US</a>
-      <a class="nav-item nav-link" href="#retreats">Retreats</a>
-      <a class="nav-item nav-link" href="#camp">Bible Camp</a>
-      <a class="nav-item nav-link" href="#proverbs">Proverbs</a>
-      <a class="nav-item nav-link" href="#videos">Videos</a>
-      <a class="nav-item nav-link" href="#gallery">Gallery</a>
-      <a class="nav-item nav-link" href="#links">Links</a>
-      <a class="nav-item nav-link" href="">Donate</a>
-    </div>
-  </div>
-  </nav>
+<div id="navbar">
+  <a href="#about">About US</a>
+  <a href="#retreats">Retreats</a>
+  <a href="#camp">Bible Camp</a>
+  <a href="#proverbs">Proverbs</a>
+  <a href="#videos">Videos</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#links">Links</a>
+  <a href="#">Donate</a>
+</div>
+</nav>
+
 </header>
 <body>
   
- <div class="jumbotron headermn main">
+ <div class="jumbotron headermn ">
   <p class="mission">
     Mentoring men and boys in Godly wisdom through the scriptures and outdoor adventures.
   </p>
@@ -68,10 +51,11 @@ $(window).scroll(function(){
 
   
 
-<div class="main">
+<div class="main2">
  <div class="row" style="padding-bottom:60px">
-  <div class="col-md-2">
-    <h1 id="about">About Us</h1>
+  <div class="col-md-2 mobileheader">
+    <div><h1 id="about">About Us</h1></div>
+    <div class="icon"><img src="./images/home.png" ></div>
   </div>
   <div class="col-md-6">
     <p>
@@ -81,18 +65,22 @@ $(window).scroll(function(){
     <p>
       STS is affiliated with Westwood Community Church.
     </p>
+    <p>Check out our <a href="https://stsretreats.org/documents/STS_OutdoorAdventures_2019.pdf">STS Newsletter!</a></p>
   </div>
-  <div class="col-md-3" style="background-color: rgb(242, 233, 222); padding: 10px 10px 10px 10px; text-align:center;">
+  <div class="col-md-4" style="text-align:center;">
+   <div class="donate">
     <h2>Donate</h2>
     <p>Success Through Scriptures is a tax-exempt, 501(c) (3) nonprofit Christian organization, all donations and contributions to it are tax deductible.</p>
   <img src="./images/donate.gif">
   </div>
+  </div>
  </div>   
 </div>
 
-<div class="row rowspace retreats">
-  <div class="col-md-2">
-    <h1 id="retreats">Crow Duck Lake Retreats</h1>
+<div class="row rowspace crowlake">
+  <div class="col-md-2 mobileheader">
+   <div><h1 id="retreats">Crow Duck Lake Retreats</h1></div>
+    <div class="icon"><img src="./images/backpack.png" ></div>
   </div>
   <div class="col-md-6">
     <h2>2023 Retreats and Event Dates</h2>
@@ -103,17 +91,18 @@ $(window).scroll(function(){
       Learn More about costs and information about Crow Duck Lake Trips 1 and 2.</p>
     <h2>Scholarship Program</h2> 
     <p>We are offering a scholarship program for the Crow Duck Lake Retreat to eligible military father and his son, and young men and boys.</p>
-    <p>For more information, please contact Mike at:</p>
-    <p>mwswisdom@yahoo.com</p>
+    <p>For more information, please contact Mike at: mwswisdom@yahoo.com</p>
+    
   </div>
-  <div class="col-md-3" style="text-align: center;">
+  <div class="col-md-4" style="text-align: center;">
    <div class="image"><img src="./images/scholarship.png"></div>
   </div>
 </div>
 
 <div class="row rowspace">
-  <div class="col-md-2">
-    <h1 id="camp">Calvary Bible Camp</h1>
+  <div class="col-md-2 mobileheader">
+    <div><h1 id="camp">Calvary Bible Camp</h1></div>
+    <div class="icon"><img src="./images/fishing-rod.png" ></div>
   </div>
   <div class="col-md-6">
     <h2>Portage Lake Fishing</h2>
@@ -134,19 +123,21 @@ $(window).scroll(function(){
     <li>Youth Camper Packet (Age 17 & under)</li>
     </div>
   </div>
-  <div class="col-md-3" style="text-align: center;">
+  <div class="col-md-4" style="text-align: center;">
     <div class="image"> <img src="./images/camppic.png"></div>
   </div>
 </div>
 
-<div class="row rowspace proverbs">
-  <div class="col-md-2">
-    <h1 id="proverbs">Proverbs</h1>
+<div class="row rowspace proverbs boat">
+  <div class="col-md-2 mobileheader">
+    <div><h1 id="proverbs">Proverbs</h1></div>
+    <div class="icon"><img src="./images/bookmark.png" ></div>
   </div>
   <div class="col-md-6">
    
     <p>Proverbs is the most practical "hands on" book of the Bible. In Proverbs we discover God's perspective on money, on love, on relationships, on business, on morality, on government, on just about every aspect of life.</p>
      <p style="font-size: smaller;">Copyright Dr. David Jeremiah, Power UP! 2002 Turning Point for God</p>
+
      <h2>Links Related to the Book of Proverbs</h2>
     <div class="bullets">
     <li>What's a Proverb</li>
@@ -157,30 +148,41 @@ $(window).scroll(function(){
     <li>Our Daily Bread</li>
     </div>
     
+  </div>
+
+  <div class="col-md-2" >
      
   </div>
-  <div class="col-md-3" style="text-align: center;">
-    <div class="image"> <img src="./images/proverbs.png"></div>
-    
-  </div>
+<div class="col-md-2"></div>
+
 </div>
 
 
-<div class="row" style="padding-top: 50px;">
-  <div class="col-md-2">
-    <h1 id="videos">Videos</h1>
+<div class="row" style="padding-top: 50px; ">
+  <div class="col-md-2 mobileheader">
+   <div><h1 id="videos">Videos</h1></div>
+    <div class="icon"><img src="./images/forward-button.png" ></div>
   </div>
-  <div class="col-md-3">
-    <h2>Crow Duck Lake STS</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/iYsUE4kjxlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="col-md-3 ">
+    <h3>Crow Duck Lake STS</h3>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iYsUE4kjxlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+    </div>
+  <div class="col-md-3 ">
+    <h3>Crow Duck Lake Camp</h3>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/CZTAUXR-wNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   </div>
-  <div class="col-md-3">
-    <h2>Crow Duck Lake Camp</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/CZTAUXR-wNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   </div>
-  <div class="col-md-3">
-    <h2>Crow Duck Retreat (June, 2019)</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/uGaoWjPcdb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="col-md-3 ">
+    <h3>Crow Duck Retreat (June, 2019)</h3>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/uGaoWjPcdb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  </div>
   </div>
 </div>
 
@@ -190,15 +192,24 @@ $(window).scroll(function(){
   </div>
   <div class="col-md-3">
     <h2>STS Retreat Videos - 2018</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/2medslY-zpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/2medslY-zpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
   </div>
   <div class="col-md-3">
     <h2>STS Crow Duck Fishing</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/bbG2bhjzd7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/bbG2bhjzd7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
   </div>
   <div class="col-md-3">
-    <h2>>STS Fishing Retreat - 2011</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/i64fe-jRCCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <h2>STS Fishing Retreat - 2011</h2>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/i64fe-jRCCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
   </div>
 </div>
 
@@ -208,17 +219,24 @@ $(window).scroll(function(){
   </div>
   <div class="col-md-3">
     <h2>STS Retreat Videos - 2014</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/zE4ugb_5Deg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/zE4ugb_5Deg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
   </div>
   <div class="col-md-3">
     <h2>Bill's 2010 Video</h2>
-    <div class="vidpad"><iframe width="356" height="200" src="https://www.youtube.com/embed/ajCeIPlpVGk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="vidpad">
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/ajCeIPlpVGk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
   </div>
 </div>
 
-<div class="row rowspace retreats">
-  <div class="col-md-2">
-    <h1 id="gallery">Photo Gallery Links</h1>
+<div class="row rowspace retreats" style="background-color: #9734061c;">
+  <div class="col-md-2 mobileheader">
+   <div><h1 id="gallery">Photo Gallery</h1></div>
+    <div class="icon"><img src="./images/gallery.png" ></div>
   </div>
   <div class="col-md-4">
 <div class="bullets">
@@ -250,14 +268,15 @@ $(window).scroll(function(){
 </div>
   </div>
 
-  <div class="row rowspace">
-    <div class="col-md-2">
-      <h1 id="links">Links of Interest</h1>
+  <div class="row rowspace" >
+    <div class="col-md-2 mobileheader">
+      <div><h1 id="links">Links of Interest</h1></div>
+      <div class="icon"><img src="./images/file-organizing.png" ></div>
     </div>
     <div class="col-md-8">
       <div>
-      <p>We HIGHLY recommend this Bible Study site!  Good things happening here!
-      <a href="https://capmin.org/">Capital Ministry</a></p>
+      <p><a href="https://capmin.org/">Capital Ministry</a> - We HIGHLY recommend this Bible Study site!  Good things happening here!
+      </p>
       </div>
       <div>
      <p><a href="#">WHO are the GUIDES in your life?</a></p>
@@ -276,11 +295,13 @@ $(window).scroll(function(){
 
 
 
-<div class="row" style="background-color: #9734062b;">
+<div class="row" >
   <div class="col-md-2">
+    <div><img src="./images/Logo5.gif" alt="Success Through Scriptures" class="img-fluid">
     </div>
-    <div class="col-md-6">
-    <p style="padding-top: 20px;">When Jesus told the desciples to let down their nets again after not catching a thing,  how many fish did they catch?
+    </div>
+    <div class="col-md-8">
+    <p style="padding-top: 20px;">When Jesus told the desciples to let down their nets again after not catching a thing, how many fish did they catch?<br>
       (For the answer see John 21:11)</p>
     <p>Born Once, Die Twice  Rev 20:14<br>
       Born Twice, Die Once  John 3:3</p>  
@@ -326,5 +347,26 @@ $(window).scroll(function(){
   }
   </script>
   
+
+  <!--on scroll change nav background color-->
+<script>
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
+  
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+  
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+  
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
 </body>
 </html>
